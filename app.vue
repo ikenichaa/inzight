@@ -10,4 +10,15 @@
   </v-app>
 </template>
 
-<script setup></script>
+<script setup>
+import Logo from "./assets/image/cube.png";
+useSeoMeta({
+  title: "Inzight",
+  ogTitle: "Inzight",
+  description:
+    "AI models to recommend marketing promotions, target audience, campaign content, image generation, branding, and story creation",
+  ogDescription:
+    "AI models to recommend marketing promotions, target audience, campaign content, image generation, branding, and story creation",
+  ogImage: Logo,
+});
+</script>
